@@ -1,0 +1,5 @@
+# Poll every 10 minutes
+*/10 * * * *  /usr/bin/python3 /path/to/reddit-sheet-tracker/reddit_sheet_tracker.py poll
+
+# Daily snapshot at 00:10 (local machine time)
+10 0 * * *    /usr/bin/python3 /path/to/reddit-sheet-tracker/reddit_sheet_tracker.py daily
