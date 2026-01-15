@@ -1,0 +1,17 @@
+# Secrets / local config
+.env
+credentials.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Local logs
+*.log
